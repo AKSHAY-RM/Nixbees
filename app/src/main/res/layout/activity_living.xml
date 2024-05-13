@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LivingActivity">
+    <ImageButton
+        android:id="@+id/menuButton"
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="15dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="menu"
+        android:src="@drawable/baseline_menu_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clothTitle"
+        android:text=" Living Area"
+        android:textSize="36sp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/lavender"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/clothImage"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_below="@id/clothTitle"
+        android:src="@drawable/lr1" />
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="517dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/lighticon1" />
+
+        <Switch
+            android:id="@+id/light5"
+            android:layout_width="192dp"
+            android:layout_height="82dp"
+            android:text="Light"
+            android:textColor="@color/lavender"
+            android:textOff="Light Off"
+            android:textOn="Light On"
+            android:textSize="35dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="426dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/floor" />
+
+        <Switch
+            android:id="@+id/ceiling"
+            android:layout_width="192dp"
+            android:layout_height="82dp"
+            android:text="Ceiling Light"
+            android:textColor="@color/lavender"
+            android:textOff="Ceiling Light Off"
+            android:textOn="Ceiling Light On"
+            android:textSize="30dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="338dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/thermostat3" />
+
+        <Switch
+            android:id="@+id/thermostat"
+            android:layout_width="192dp"
+            android:layout_height="82dp"
+            android:text="Thermostat"
+            android:textColor="@color/lavender"
+            android:textOff="thermostat Off"
+            android:textOn="thermostat On"
+            android:textSize="27dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="252dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/door2" />
+
+        <Switch
+            android:id="@+id/Door"
+            android:layout_width="192dp"
+            android:layout_height="82dp"
+            android:text="Door"
+            android:textColor="@color/lavender"
+            android:textOff="Door Off"
+            android:textOn="Door On"
+            android:textSize="35dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="163dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/projector1" />
+
+        <Switch
+            android:id="@+id/Projector"
+            android:layout_width="192dp"
+            android:layout_height="82dp"
+            android:text="Projector "
+            android:textColor="@color/lavender"
+            android:textOff="Projector  Off"
+            android:textOn="Projector  On"
+            android:textSize="35dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="75dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/curtain2" />
+
+        <Switch
+            android:id="@+id/Curtain2"
+            android:layout_width="192dp"
+            android:layout_height="82dp"
+            android:text="Curtain"
+            android:textColor="@color/lavender"
+            android:textOff="Curtain Off"
+            android:textOn="Curtain On"
+            android:textSize="35dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveButton5"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Save" />
+</RelativeLayout>

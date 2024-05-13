@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nixbees</string>
+    <string name="get_started_text">Welcome to Smart Home</string>
+    <string name="light_off">Light Off</string>
+    <string name="light_on">Light On</string>
+    <string name="light">Light</string>
+
+</resources>

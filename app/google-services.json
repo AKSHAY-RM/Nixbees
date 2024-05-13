@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778836477002",
+    "project_id": "nixbees-8520d",
+    "storage_bucket": "nixbees-8520d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778836477002:android:90ab4631806af7aadc92b3",
+        "android_client_info": {
+          "package_name": "com.example.nixbees"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm8Wp0wAycnBqIEdSRjF9oCry0bNdeuAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

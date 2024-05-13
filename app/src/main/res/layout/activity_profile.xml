@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashbg12"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="148dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="116dp"
+        android:fontFamily="@font/rouge_script"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pie_chart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_chart"
+        android:layout_width="436dp"
+        android:layout_height="519dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Device Control"
+        android:textSize="30sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pie_chart"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/alex_brush"
+        android:text="Hello "
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pie_chart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

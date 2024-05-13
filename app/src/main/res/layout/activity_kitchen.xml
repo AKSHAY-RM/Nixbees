@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kitchenActivity">
+
+    <ImageButton
+        android:id="@+id/menuButton"
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="15dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="menu"
+        android:src="@drawable/baseline_menu_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clothTitle"
+        android:text="Kitchen"
+        android:textSize="36sp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/lavender"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/clothImage"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_below="@id/clothTitle"
+        android:src="@drawable/kitchen1" />
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="517dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/lighticon1" />
+
+        <Switch
+            android:id="@+id/light3"
+            android:layout_width="172dp"
+            android:layout_height="82dp"
+            android:text="Light"
+            android:textColor="@color/lavender"
+            android:textOff="Light Off"
+            android:textOn="Light On"
+            android:textSize="35dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="426dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/stove1" />
+
+        <Switch
+            android:id="@+id/stove"
+            android:layout_width="172dp"
+            android:layout_height="82dp"
+            android:text="Stove"
+            android:textColor="@color/lavender"
+            android:textOff="Stove Off"
+            android:textOn="Stove On"
+            android:textSize="35dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="338dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/rf4" />
+
+        <Switch
+            android:id="@+id/Refrigerator"
+            android:layout_width="172dp"
+            android:layout_height="82dp"
+            android:text="freezer"
+            android:textColor="@color/lavender"
+            android:textOff="Refrigerator Off"
+            android:textOn="Refrigerator On"
+            android:textSize="35dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="252dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/washer" />
+
+        <Switch
+            android:id="@+id/Dishwasher"
+            android:layout_width="172dp"
+            android:layout_height="82dp"
+            android:text="DWasher"
+            android:textColor="@color/lavender"
+            android:textOff="Dishwasher Off"
+            android:textOn="Dishwasher On"
+            android:textSize="30dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="163dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/oven" />
+
+        <Switch
+            android:id="@+id/Oven"
+            android:layout_width="172dp"
+            android:layout_height="82dp"
+            android:text="Oven"
+            android:textColor="@color/lavender"
+            android:textOff="Oven Off"
+            android:textOn="Oven On"
+            android:textSize="35dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/clothImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="75dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Icon"
+            android:src="@drawable/exhaust1" />
+
+        <Switch
+            android:id="@+id/ExhaustFan"
+            android:layout_width="172dp"
+            android:layout_height="82dp"
+            android:text="Exhaust"
+            android:textColor="@color/lavender"
+            android:textOff="Exhaust Fan Off"
+            android:textOn="Exhaust Fan On"
+            android:textSize="30dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveButton2"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Save" />
+</RelativeLayout>
